@@ -1,8 +1,7 @@
 import time
-
 import pyautogui as pag
 
-while True:
-    pag.typewrite('Safrin ekta picchi meye...')
-    time.sleep(3)
+for doComment in range(50):
+    pag.typewrite('Tara taratari upload kombol soho pic upload de')
+    time.sleep(10)
     pag.press('enter')
